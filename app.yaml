@@ -1,0 +1,21 @@
+# https://cloud.google.com/appengine/docs/standard/reference/app-yaml?tab=node.js#top
+
+# https://cloud.google.com/sdk/docs/install-sdk#linux
+
+# gcloud auth login --no-launch-browser
+
+
+# [START app_yaml]
+
+runtime: nodejs16
+instance_class: F1
+automatic_scaling:
+  max_instances: 1
+
+# env_variables:
+#   GAE_APPLICATION: ""
+#   GAE_ENV: "standard"
+#   GOOGLE_CLOUD_PROJECT: "" 
+#   NODE_ENV: "production"
+
+# [END app_yaml]
