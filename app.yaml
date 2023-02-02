@@ -4,11 +4,16 @@
 
 # gcloud auth login --no-launch-browser
 
+# gcloud app logs tail -s default
+
+# gcloud app browse
+
+# https://smooth-copilot-370012.ew.r.appspot.com
 
 # [START app_yaml]
 
 runtime: nodejs16
-instance_class: F1
+instance_class: F4_1G
 automatic_scaling:
   max_instances: 1
 
