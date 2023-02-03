@@ -48,7 +48,7 @@ export const GridFieldValueControl: React.FunctionComponent<GridFieldValueProps>
                       error: hasError,
                       startAdornment: hasError ? startAdornment : undefined,
                       fullWidth: true,
-                      hiddenLabel: true,
+                      hiddenlabel: "true",
                       variant: "filled",
                       margin: "dense",
                       onSelect: () => setSelectedIndex(index),

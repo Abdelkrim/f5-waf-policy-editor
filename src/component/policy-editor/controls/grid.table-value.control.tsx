@@ -265,7 +265,7 @@ export const GridTableValueControl: React.FunctionComponent<GridTableValueProps>
                         key: `control_${index}`,
                         error: hasError,
                         fullWidth: true,
-                        hiddenLabel: true,
+                        hiddenlabel: "true",
                         margin: "dense",
                         startAdornment: hasError ? startAdornment : undefined,
                       }),
