@@ -4,3 +4,8 @@
 node_modules/
 scripts
 dist
+build
+.vscode
+deploy
+.github
+terraform
